@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mein erstes Spiel</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id="spielbehalter">
+	<div id="hauptteil">		
+		<canvas id="canvas" height="600" width="800" class="spiel">
+			<img src="img/spielplatz.jpg" height="500" width= "800" id="platz">
+		</canvas>
+		<div id= "startbild" class="spiel">
+			<p class="klickmich">
+				<div id="losSpiel"></div>
+			</p>
+			<p class="klickmich">
+				<div class="hilfe" id="hilfe1"></div>
+			</p>
+		</div>
+		<div id="kontrol" class="spiel">
+			<h1 id="title">Tennis Rock Pro</h1>
+			<div id="musik" class="btn2"></div>
+			<div id="hilfebtn" class="btn2"></div>
+		</div>
+		<div id="pause" class="spiel">
+			<div class="nachricht">
+				<p class="btns">
+					<span id="weiter" class="btn"></span><span>Play</span>
+				</p>
+				<p class="btns">
+					<span id="neustart" class="btn"></span><span>Restart</span>
+				</p>
+				<p class="btns">
+					<span id="hauptmenu" class="btn"></span><span>Main Menu</span>
+				</p>
+			</div>
+		</div>
+		<div id="hilfe" class="spiel">
+			<div class="nachricht" style="height: 350px">
+				<p class="btns1">
+					<span id="wkey" class="btn"></span><span>Player 1 Up</span>
+				</p>
+				<p class="btns1">
+					<span id="skey" class="btn"></span><span>Player 1 Down</span>
+				</p>
+				<p class="btns1">
+					<span id="upkey" class="btn"></span><span>Player 2 Up</span>
+				</p>
+				<p class="btns1">
+					<span id="downkey" class="btn"></span><span>Player 2 Down</span>
+				</p>
+				<p class="btns1">
+					<span id="pkey" class="btn"></span><span>Pause/Play</span>
+				</p>
+				<p class="btns1">
+					<span id="hkey" class="btn"></span><span>Help</span>
+				</p>
+				<p class="klickmich">
+					<div id="zuruck"></div>
+				</p>
+			</div>
+		</div>
+		<div id="ende" class="spiel">
+			<div class="nachricht">
+				<p class="btns">
+					<span>Winner :</span><span id="siegername"></span>
+				</p>
+				<p class="btns">
+					<span id="neustart1" class="btn"></span><span>Restart</span>
+				</p>
+				<p class="btns">
+					<span id="hauptmenu1" class="btn"></span><span>Main Menu</span>
+				</p>
+			</div>
+		</div>
+		<div id="laden" class="spiel"></div>
+	</div>
+</div>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

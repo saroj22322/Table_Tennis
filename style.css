@@ -1,0 +1,164 @@
+ * {
+ 	margin: 0px;
+ 	padding: 0px;
+ 	box-sizing: border-box;
+}
+
+#spielbehalter {
+	position: absolute;
+}
+
+#hauptteil {
+	width: 800px;
+	height: 600px;
+	background: url("img/hintergrund.jpg");
+}
+
+.spiel {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	display: none;
+}
+
+#startbild {
+	padding: 150px 80px;
+}
+
+.klickmich {
+	margin: 10px;
+	padding: 10px;
+}
+
+#losSpiel {
+	width: 120px;
+	height: 42px;
+	background: url("img/buttons.png") 0px -10px;
+	cursor: pointer;
+}
+
+#hilfe1 {
+	width: 120px;
+	height: 54px;
+	background: url("img/buttons.png") 0px 55px;
+	cursor: pointer;
+}
+
+.btns .btn {
+	width: 50px;
+	height: 60px;
+	display: inline-block;
+}
+
+.btns {
+	margin: 20px;	
+	cursor: pointer;
+}
+
+.btns span{
+	color: white;
+	font: 30px "Comic Sans MS";
+	margin-bottom: -20px; 
+	margin-left: 10px;
+}
+
+.nachricht {
+	width: 500px;
+	height: 300px;
+	margin: 150px auto;
+	background: rgba(140, 140, 140, 0.4);
+	padding: 10px;
+}
+
+#weiter {	
+	background: url("img/buttons.png") 50px 0px;
+}
+
+#neustart {	
+	background: url("img/buttons.png") 50px 60px;
+}
+
+#hauptmenu {	
+	background: url("img/buttons.png") -200px 0px;
+}
+
+.btns1 .btn {
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+}
+
+.btns1 {
+	margin: 10px;	
+}
+
+.btns1 span{
+	color: white;
+	font: 20px "Comic Sans MS";
+	margin-bottom: -5px; 
+	margin-left: 10px;
+}
+
+#upkey {
+	background: url("img/keys.png") 0px 0px;
+}
+
+#downkey {
+	background: url("img/keys.png") 0px 25px;
+}
+
+#pkey {
+	background: url("img/keys.png") 25px 0px;
+}
+
+#hkey {
+	background: url("img/keys.png") 25px 25px;
+}
+
+#wkey {
+	background: url("img/keys.png") 50px 0px;
+}
+
+#skey {
+	background: url("img/keys.png") 50px 25px;
+}
+
+#zuruck {
+	width: 90px;
+	height: 35px;
+	background: url("img/back.png");
+	cursor: pointer;
+	margin-left: 20px;
+}
+
+#kontrol {
+	padding: 0% 30%;
+}
+
+.btn2 {
+	display: inline-block;
+	cursor: pointer;
+	width: 50px;
+	height: 60px;
+	margin-left: 30px;
+}
+#musik {
+	background: url("img/buttons.png") 160px 65px;	
+}
+
+#hilfebtn {	
+	background: url("img/buttons.png") 160px 0px;	
+}
+
+#title {
+	color: rgba(40,40,40,1);
+	font: 26px "Comic Sans MS";
+}
+
+#neustart1 {	
+	background: url("img/buttons.png") 50px 60px;
+}
+
+#hauptmenu1 {	
+	background: url("img/buttons.png") -200px 0px;
+}
